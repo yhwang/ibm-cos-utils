@@ -1,0 +1,18 @@
+{
+  "name": "ibm-cos-utils",
+  "version": "1.0.0",
+  "description": "utility scripts for IBM Cloud Object Storage",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "lint": "tslint -p tsconfig.json -c tslint.json src/**/*.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@types/node": "^12.12.17",
+    "tslint": "^5.20.1",
+    "typescript": "3.5.3"
+  }
+}
