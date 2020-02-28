@@ -29,7 +29,7 @@ Then you can use the following command to add `GET` access from any domain
 ```
 APIKEY=apikey.json IAMTOKEN=iam-token.json node dist/update-cors.js s3.sjc.us.cloud-object-storage.appdomain.cloud mybucket "*" get
 ```
-If you need to multiple accesses, just use comma as the separator. For example:
+If you need multiple accesses, just use comma as the separator. For example:
 `GET,PUT`
 
 ### List CORS for a Bucket
